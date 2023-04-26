@@ -170,7 +170,7 @@ const runDiscordBot = db => {
                 } else {
                     const next = timestampNow + (timestampNow - UPTIME_RANK_COUNTDOWN);
 
-                    msg.channel.send(`You onky can request a new **rank** on __${new Date(next)}__.`);
+                    msg.channel.send(`You only can request a new **rank** on __${new Date(next)}__.`);
                 }
             
             } else if (msgWords.includes('help')) {
